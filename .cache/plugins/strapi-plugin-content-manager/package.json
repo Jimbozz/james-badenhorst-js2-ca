@@ -1,0 +1,178 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "strapi-plugin-content-manager@3.5.2",
+        "scope": null,
+        "escapedName": "strapi-plugin-content-manager",
+        "name": "strapi-plugin-content-manager",
+        "rawSpec": "3.5.2",
+        "spec": "3.5.2",
+        "type": "version"
+      },
+      "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca"
+    ]
+  ],
+  "_from": "strapi-plugin-content-manager@3.5.2",
+  "_hasShrinkwrap": false,
+  "_id": "strapi-plugin-content-manager@3.5.2",
+  "_inCache": true,
+  "_location": "/strapi-plugin-content-manager",
+  "_nodeVersion": "14.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-content-manager_3.5.2_1614594334523_0.16035686987443798"
+  },
+  "_npmUser": {
+    "name": "alexandrebodin",
+    "email": "bodin.alex@gmail.com"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v14.16.0+x64 (darwin)",
+  "_phantomChildren": {
+    "@babel/runtime": "7.17.2",
+    "synchronous-promise": "2.0.15",
+    "toposort": "2.0.2"
+  },
+  "_requested": {
+    "raw": "strapi-plugin-content-manager@3.5.2",
+    "scope": null,
+    "escapedName": "strapi-plugin-content-manager",
+    "name": "strapi-plugin-content-manager",
+    "rawSpec": "3.5.2",
+    "spec": "3.5.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.5.2.tgz",
+  "_shasum": "ed8b6dabff3a04772f01a373795481bd211a468c",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-content-manager@3.5.2",
+  "_where": "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "https://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "@buffetjs/core": "3.3.4",
+    "@buffetjs/custom": "3.3.4",
+    "@buffetjs/hooks": "3.3.4",
+    "@buffetjs/icons": "3.3.4",
+    "@buffetjs/styles": "3.3.4",
+    "@buffetjs/utils": "3.3.4",
+    "@sindresorhus/slugify": "1.1.0",
+    "classnames": "^2.2.6",
+    "codemirror": "^5.59.0",
+    "draft-js": "^0.11.5",
+    "highlight.js": "^10.1.1",
+    "immutable": "^3.8.2",
+    "lodash": "4.17.20",
+    "markdown-it": "^12.0.4",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-deflist": "^2.0.3",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-ins": "^3.0.1",
+    "markdown-it-mark": "^3.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "pluralize": "^8.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.9.0",
+    "react-fast-compare": "^3.2.0",
+    "react-intl": "4.5.0",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "reactstrap": "8.4.1",
+    "redux": "^4.0.1",
+    "redux-immutable": "^4.0.0",
+    "reselect": "^4.0.0",
+    "sanitize-html": "2.1.1",
+    "strapi-helper-plugin": "3.5.2",
+    "strapi-utils": "3.5.2",
+    "yup": "^0.27.0"
+  },
+  "description": "A powerful UI to easily manage your data.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-1lHYPZKKfD7Nrv2osUvMBG+esDW6aeIKqG5Vz8HJ45l8Uuw2dj49wHDV5Z2UjzYvPGesRJEot/X6D9OzVLUbKw==",
+    "shasum": "ed8b6dabff3a04772f01a373795481bd211a468c",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.5.2.tgz",
+    "fileCount": 390,
+    "unpackedSize": 896864,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgPMEfCRA9TVsSAnZWagAAce8P/2g79BPjt7R61RKfqVby\nvU8H7TVzWKw9/OL4Tywujfvw+79tfTxexFGcU2sHD3vrGDaQ8h2Si7UETFQN\nvv/uqK1MSO+HeB9n0JATHd9HHehCXolA3W6V2cPVoQ2y/rBpXBCbTSy+KwPR\n/dj50JKY5AnHzCIODqaGD79n9W9cs2xgcAfP4BofY3CQFrJm3radFvlN/AXy\nNJBNubSWWCjd8pFY8rcsT3J0oYSN/hsJQ/TDLXYZ5sBnOvp+i8r3wZCLwDvM\n00aV1wWksH4YygGc0lNZb3ceuP8BiXP1IMEKzBukZ8QzER84ErutYjnS3yTN\n9iXDHlT36q8mtPcON7yhW58tNtb7DuCb3ud84ERKcJVsNHRglrwK6HtWymPY\ndXwfjJGSJjo6Xnek8hImE6RvQSkFvOrlT2T4w34QTHe3Jw604jHrqm+d1d7s\nrxvpn5TSKFbMdXXOaKU6/q+IhEmJOUOmuEeO3KpuAyJvRRRMAHF0Ch3011wH\n7Gm/HRwKAiDJsaAKpeeQVGOERR2K52SHFOf0eRE94AavySH9IPFIsqOxAL22\nc84uuk93abqPUXZknQqCZSAhhbat+5KRZqCD+L81+xzXui5Vwsv0jrsmcsKw\nk7HgBWdLSroZ7MAvPHU7VhKElg3LSqeL5e1TRwXm4q+NBx1ildEXCASrOxrB\nvixJ\r\n=Sh1T\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "1a472c98a7738ae3746c4a8e535c5e9cfcfe5926",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "lauriejim",
+      "email": "j.laurie6993@gmail.com"
+    },
+    {
+      "name": "pierreburgy",
+      "email": "pierre.burgy@gmail.com"
+    },
+    {
+      "name": "soupette",
+      "email": "cyril.lpz@gmail.com"
+    },
+    {
+      "name": "aurelsicoko",
+      "email": "aurelsicoko@gmail.com"
+    },
+    {
+      "name": "hichamelbsi",
+      "email": "elabbassih@gmail.com"
+    },
+    {
+      "name": "alexandrebodin",
+      "email": "bodin.alex@gmail.com"
+    },
+    {
+      "name": "petersg83",
+      "email": "petersg83@gmail.com"
+    },
+    {
+      "name": "convly",
+      "email": "jean-sebastien.herbaux@hotmail.fr"
+    }
+  ],
+  "name": "strapi-plugin-content-manager",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "strapi": {
+    "name": "Content Manager",
+    "icon": "plug",
+    "description": "content-manager.plugin.description",
+    "required": true
+  },
+  "version": "3.5.2",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.16.0 <=14.x.x",
+        "npm": ">=6.0.0"
+      },
+      "pkgid": "strapi-plugin-content-manager@3.5.2"
+    }
+  ]
+}

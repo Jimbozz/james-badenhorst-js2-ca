@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #d8d3d3;
+  padding: 1.5rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}

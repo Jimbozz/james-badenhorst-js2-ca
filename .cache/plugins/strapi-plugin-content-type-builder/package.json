@@ -1,0 +1,164 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "strapi-plugin-content-type-builder@3.5.2",
+        "scope": null,
+        "escapedName": "strapi-plugin-content-type-builder",
+        "name": "strapi-plugin-content-type-builder",
+        "rawSpec": "3.5.2",
+        "spec": "3.5.2",
+        "type": "version"
+      },
+      "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca"
+    ]
+  ],
+  "_from": "strapi-plugin-content-type-builder@3.5.2",
+  "_hasShrinkwrap": false,
+  "_id": "strapi-plugin-content-type-builder@3.5.2",
+  "_inCache": true,
+  "_location": "/strapi-plugin-content-type-builder",
+  "_nodeVersion": "14.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-content-type-builder_3.5.2_1614594346840_0.9757447847958174"
+  },
+  "_npmUser": {
+    "name": "alexandrebodin",
+    "email": "bodin.alex@gmail.com"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v14.16.0+x64 (darwin)",
+  "_phantomChildren": {
+    "@babel/runtime": "7.17.2",
+    "synchronous-promise": "2.0.15",
+    "toposort": "2.0.2"
+  },
+  "_requested": {
+    "raw": "strapi-plugin-content-type-builder@3.5.2",
+    "scope": null,
+    "escapedName": "strapi-plugin-content-type-builder",
+    "name": "strapi-plugin-content-type-builder",
+    "rawSpec": "3.5.2",
+    "spec": "3.5.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.5.2.tgz",
+  "_shasum": "ec1ff795cd4f9afb345e57705988ddac343cc4b4",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-content-type-builder@3.5.2",
+  "_where": "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "https://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "@buffetjs/core": "3.3.4",
+    "@buffetjs/custom": "3.3.4",
+    "@buffetjs/hooks": "3.3.4",
+    "@buffetjs/icons": "3.3.4",
+    "@buffetjs/styles": "3.3.4",
+    "@buffetjs/utils": "3.3.4",
+    "@sindresorhus/slugify": "1.1.0",
+    "fs-extra": "^9.0.1",
+    "immutable": "^3.8.2",
+    "lodash": "4.17.20",
+    "pluralize": "^8.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.9.0",
+    "react-intl": "4.5.0",
+    "react-redux": "7.2.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "reactstrap": "8.4.1",
+    "redux": "^4.0.1",
+    "redux-immutable": "^4.0.0",
+    "reselect": "^4.0.0",
+    "strapi-generate": "3.5.2",
+    "strapi-generate-api": "3.5.2",
+    "strapi-helper-plugin": "3.5.2",
+    "strapi-utils": "3.5.2",
+    "yup": "^0.27.0"
+  },
+  "description": "Strapi plugin to create content type (API).",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-cP5C+aZJm23/ppcbSCGdglGBXclg5u0HT/t65jqCaWzyAAcIrYDBbJkYN1LcbMAsqa33DdjIBDaV4L3Xg2kVfg==",
+    "shasum": "ec1ff795cd4f9afb345e57705988ddac343cc4b4",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.5.2.tgz",
+    "fileCount": 196,
+    "unpackedSize": 686682,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgPMErCRA9TVsSAnZWagAA+8EP/jp5+Psr+BeOp4X+hrd+\n7EMgy4euTpFB+Xydrs4v5KDb99d5Hr7ZTIKtxe+3y2p8Vf8Pr3x9g0Px4Y7o\nisRK2eFmqEvIVlBwah8DfUwkfBpEtt79OB5B5VD5RLDVqpRBGWizuE46E9zd\nBeklUdAr1eHdNuGlfjvrSrKCnFm+2D82MYgPxNcV6M44hnxKVNPM/YwB75q1\nn1tNizrsnWRriucJq8+kqOWskFKLSY5PXlYF3S55TD3J3EG6/TIlbPnYyzsX\nNeNLzNMG8MzKongD3HZ8K7Lc2asyHkiQly2VoxJRhebR6X15qWkRJ2Mtbmg0\nE+dV5XHe/nIpyLjxi29CR880X6Cv5egACLMewURkLuaVd823DlqjduFUu2Kg\nixxfo2Jt53EwYZy3uC6YZv1HCmhNx6y3D1PIuTX3k7qwm06m/HdVGa0jYsPH\nAYMbSg+wGLvWNVa5a9GIO4uDvtLyZ+ykD+7GgmH6ZcRffeRsPMqDi8JWgqOM\n1dagzL11/3o8SA3q2xZ9qOVVr5H6HtF7/erGjyJBAdcF5Eifm8DluSQYqt4h\nSdH5XJKMyXeLOvr8X/oSG2jeHcrT/w5e6D7/QdKaxNWxFqpxaEt668orLAPZ\nVnVXzpZyDnpwVRip9CnLD1Kh2rms53PrCc9J6OmyLSXqNDMkmhvaJ/uP7wj6\nZ3eW\r\n=iA1t\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "1a472c98a7738ae3746c4a8e535c5e9cfcfe5926",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "lauriejim",
+      "email": "j.laurie6993@gmail.com"
+    },
+    {
+      "name": "pierreburgy",
+      "email": "pierre.burgy@gmail.com"
+    },
+    {
+      "name": "soupette",
+      "email": "cyril.lpz@gmail.com"
+    },
+    {
+      "name": "aurelsicoko",
+      "email": "aurelsicoko@gmail.com"
+    },
+    {
+      "name": "hichamelbsi",
+      "email": "elabbassih@gmail.com"
+    },
+    {
+      "name": "alexandrebodin",
+      "email": "bodin.alex@gmail.com"
+    },
+    {
+      "name": "petersg83",
+      "email": "petersg83@gmail.com"
+    },
+    {
+      "name": "convly",
+      "email": "jean-sebastien.herbaux@hotmail.fr"
+    }
+  ],
+  "name": "strapi-plugin-content-type-builder",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "strapi": {
+    "name": "Content Type Builder",
+    "icon": "paint-brush",
+    "description": "content-type-builder.plugin.description"
+  },
+  "version": "3.5.2",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.16.0 <=14.x.x",
+        "npm": ">=6.0.0"
+      },
+      "pkgid": "strapi-plugin-content-type-builder@3.5.2"
+    }
+  ]
+}

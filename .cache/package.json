@@ -1,0 +1,239 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "strapi-admin@3.5.2",
+        "scope": null,
+        "escapedName": "strapi-admin",
+        "name": "strapi-admin",
+        "rawSpec": "3.5.2",
+        "spec": "3.5.2",
+        "type": "version"
+      },
+      "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca"
+    ]
+  ],
+  "_from": "strapi-admin@3.5.2",
+  "_hasShrinkwrap": false,
+  "_id": "strapi-admin@3.5.2",
+  "_inCache": true,
+  "_location": "/strapi-admin",
+  "_nodeVersion": "14.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-admin_3.5.2_1614594331517_0.4270307930847217"
+  },
+  "_npmUser": {
+    "name": "alexandrebodin",
+    "email": "bodin.alex@gmail.com"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v14.16.0+x64 (darwin)",
+  "_phantomChildren": {
+    "@babel/runtime": "7.17.2",
+    "is-docker": "2.1.1",
+    "lru-cache": "6.0.0",
+    "synchronous-promise": "2.0.15",
+    "toposort": "2.0.2"
+  },
+  "_requested": {
+    "raw": "strapi-admin@3.5.2",
+    "scope": null,
+    "escapedName": "strapi-admin",
+    "name": "strapi-admin",
+    "rawSpec": "3.5.2",
+    "spec": "3.5.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-admin/-/strapi-admin-3.5.2.tgz",
+  "_shasum": "1593bcc0378c31ec20c7f0081636e7df1f2c2aa3",
+  "_shrinkwrap": null,
+  "_spec": "strapi-admin@3.5.2",
+  "_where": "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca",
+  "author": {
+    "name": "Strapi"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-async-generator-functions": "^7.12.12",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.13.7",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/runtime": "^7.12.13",
+    "@buffetjs/core": "3.3.4",
+    "@buffetjs/custom": "3.3.4",
+    "@buffetjs/hooks": "3.3.4",
+    "@buffetjs/icons": "3.3.4",
+    "@buffetjs/styles": "3.3.4",
+    "@buffetjs/utils": "3.3.4",
+    "@casl/ability": "^4.1.5",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.1.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.5.3",
+    "chalk": "^2.4.2",
+    "chokidar": "^3.2.1",
+    "classnames": "^2.2.6",
+    "cross-env": "^7.0.3",
+    "css-loader": "^2.1.1",
+    "duplicate-package-checker-webpack-plugin": "^3.0.0",
+    "execa": "^1.0.0",
+    "file-loader": "^6.2.0",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.2.5",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "fs-extra": "^9.0.1",
+    "history": "^4.9.0",
+    "hoist-non-react-statics": "^3.3.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "immer": "^8.0.1",
+    "immutable": "^3.8.2",
+    "invariant": "^2.2.4",
+    "is-wsl": "^2.0.0",
+    "js-cookie": "2.2.1",
+    "jsonwebtoken": "8.5.1",
+    "koa-compose": "4.1.0",
+    "koa-passport": "4.1.3",
+    "lodash": "4.17.20",
+    "match-sorter": "^4.0.2",
+    "mini-css-extract-plugin": "^0.6.0",
+    "moment": "^2.29.1",
+    "p-map": "4.0.0",
+    "parse-domain": "3.0.3",
+    "passport-local": "1.0.0",
+    "prop-types": "^15.7.2",
+    "qs": "6.9.4",
+    "react": "^16.13.1",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2",
+    "react-dom": "^16.9.0",
+    "react-fast-compare": "^3.2.0",
+    "react-helmet": "^6.1.0",
+    "react-intl": "4.5.0",
+    "react-is": "^16.12.0",
+    "react-loadable": "^5.5.0",
+    "react-redux": "7.2.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-select": "^4.0.2",
+    "react-tooltip": "4.2.11",
+    "react-transition-group": "4.4.1",
+    "react-virtualized": "^9.21.2",
+    "reactstrap": "8.4.1",
+    "redux": "^4.0.1",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^4.0.0",
+    "sanitize.css": "^4.1.0",
+    "semver": "7.3.4",
+    "sift": "13.5.0",
+    "strapi-helper-plugin": "3.5.2",
+    "strapi-utils": "3.5.2",
+    "style-loader": "^0.23.1",
+    "styled-components": "^5.2.1",
+    "terser-webpack-plugin": "^1.2.3",
+    "url-loader": "^1.1.2",
+    "video-react": "^0.13.2",
+    "webpack": "^4.40.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpackbar": "^4.0.0",
+    "yup": "^0.27.0"
+  },
+  "description": "Strapi Admin",
+  "devDependencies": {
+    "webpack-bundle-analyzer": "4.4.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-enNv15fMYyHwdXSYf0Ds0Dd78MN0ex/oB0xWmbKNhwE8ys2WZ4kAUI3rL7t68QczchSvY8tDFcn404CLV20oGQ==",
+    "shasum": "1593bcc0378c31ec20c7f0081636e7df1f2c2aa3",
+    "tarball": "https://registry.npmjs.org/strapi-admin/-/strapi-admin-3.5.2.tgz",
+    "fileCount": 629,
+    "unpackedSize": 2698685,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgPMEcCRA9TVsSAnZWagAA7pMP/A+6Wwt/r+Nu8xeA8QuV\n0bA/L+2R0+MA/EenhNkdxkgOFVlpR3kab8+U+7IPr1pfd8lbKXksvwexolqv\ndU4yr/Z/k1py05H7LoiGV9/4Cd8PWcwbXxWDw0BeN91ytR5gpw2l0U0wjQPd\nT8nz3Q0G1586pjpnXM5fEs55lU1OYI5NbxOU0d59aRecUI+5XHfIPUZdpNGS\noh0mNYeUTcSpNhZUQPxHGgrOpL3fp2zGTfPB7h9hSriOUDl518pr3Ofmgwci\ngIPh07IY9GjxLuoubt4gfNrv9VsBIGKHkbJku8fLE4uSm5OZ0EKV+oIvOLrf\nnlCkCs9mGTF4SCzjtkLtgLENdJR1POLI9qbKX/xIiwzS9uTVZe2OQkVH9y3V\nbvhT7xxUxZu7/WKOfRxyhGv7iH3lTFqZJBvDIIfdrTDFUgbIT8ekfrwERP6J\nYEParmpbpng81pzBxaVEpOe5bs9nhaYn7Sv1qbtxOy8I/wA1/FYV/07fSDmI\ngrNG2t3Fjo4qLwcOUPxwDYtkwPdRJuYpJsEbR5O0POginTxsBw8ldTkiYBu0\nf1XsMHdkfwfybDxR24yDMcGPrsOSBk0pprDjI1A1fzRml0OtOlYZv4bzZ2ba\nhiv3pAZFiDVLRMjvWc4P+3uq1hosnKLMAwz91OXJ+ON5OyDuz6gHeMTWD9LJ\ngHHU\r\n=RPie\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "1a472c98a7738ae3746c4a8e535c5e9cfcfe5926",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "lauriejim",
+      "email": "j.laurie6993@gmail.com"
+    },
+    {
+      "name": "pierreburgy",
+      "email": "pierre.burgy@gmail.com"
+    },
+    {
+      "name": "soupette",
+      "email": "cyril.lpz@gmail.com"
+    },
+    {
+      "name": "aurelsicoko",
+      "email": "aurelsicoko@gmail.com"
+    },
+    {
+      "name": "hichamelbsi",
+      "email": "elabbassih@gmail.com"
+    },
+    {
+      "name": "alexandrebodin",
+      "email": "bodin.alex@gmail.com"
+    },
+    {
+      "name": "petersg83",
+      "email": "petersg83@gmail.com"
+    },
+    {
+      "name": "convly",
+      "email": "jean-sebastien.herbaux@hotmail.fr"
+    }
+  ],
+  "name": "strapi-admin",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "analyze:bundle": "ANALYZE_BUNDLE=true webpack --config webpack.config.dev.js",
+    "develop": "webpack-dev-server --config webpack.config.dev.js",
+    "develop:ce": "STRAPI_DISABLE_EE=true webpack-dev-server --config webpack.config.dev.js",
+    "test": "echo \"no tests yet\""
+  },
+  "version": "3.5.2",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.16.0 <=14.x.x",
+        "npm": ">=6.0.0"
+      },
+      "pkgid": "strapi-admin@3.5.2"
+    }
+  ]
+}

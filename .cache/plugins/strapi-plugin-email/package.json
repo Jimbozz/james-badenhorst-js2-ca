@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "strapi-plugin-email@3.5.2",
+        "scope": null,
+        "escapedName": "strapi-plugin-email",
+        "name": "strapi-plugin-email",
+        "rawSpec": "3.5.2",
+        "spec": "3.5.2",
+        "type": "version"
+      },
+      "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca"
+    ]
+  ],
+  "_from": "strapi-plugin-email@3.5.2",
+  "_hasShrinkwrap": false,
+  "_id": "strapi-plugin-email@3.5.2",
+  "_inCache": true,
+  "_location": "/strapi-plugin-email",
+  "_nodeVersion": "14.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-email_3.5.2_1614594351403_0.12219394017997876"
+  },
+  "_npmUser": {
+    "name": "alexandrebodin",
+    "email": "bodin.alex@gmail.com"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v14.16.0+x64 (darwin)",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "strapi-plugin-email@3.5.2",
+    "scope": null,
+    "escapedName": "strapi-plugin-email",
+    "name": "strapi-plugin-email",
+    "rawSpec": "3.5.2",
+    "spec": "3.5.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.5.2.tgz",
+  "_shasum": "3e5743ada966a3cceefb2be1ae1edb1642483468",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-email@3.5.2",
+  "_where": "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "https://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "lodash": "4.17.20",
+    "strapi-provider-email-sendmail": "3.5.2",
+    "strapi-utils": "3.5.2"
+  },
+  "description": "Easily configure your Strapi application to send emails.",
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "strapi-helper-plugin": "3.5.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-I5BAk3RfyaSUoLDv/M7MbpIcAXojJ4vndel3sCFt4cOLGjFDdBEhyizL3fpclpNBwOZ1OcwDqfsTh6xL8oF6tA==",
+    "shasum": "3e5743ada966a3cceefb2be1ae1edb1642483468",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.5.2.tgz",
+    "fileCount": 37,
+    "unpackedSize": 12334,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgPMEvCRA9TVsSAnZWagAAcqIP/3lxld9R5eoQQk5BxuLB\n4r6lLeSWRefmbn45nkZ6j16JRRtRcDOHaxGChtJBG4hH+/vWYZsS1Jh4dvrH\ntf2svV6MS28qe/vCMotbM8qa7ZNPNnDq3R2expDQ1uDyPI/GeOGwIdfLsPrL\nrmq8Jf3F6Kj/3aNMtanfK/uCyhklnmB9B3ZLbh2TBprLkpPT+xfIt1WPDEZE\nWXLS8UyZw7axKx/LkWGGTTLsemWaw8lgQcooc0EVP+nj3Wdw+Enhq60QVXrH\nIsMf8v9rO3r8mBc8rcs4EXl8Kx0lvpMbLs11IHQ/rc9NaarNzplJwycbnBwy\nPb2MjqSBq1wPtFktGNnIGjALY53FaTCBMfbed/N4BREwOmOYOGJRYOg9HL12\n176QCzLEBTMEkg+x/PWKy0qhyQsPstejkQZeq97BdaZ6mZGEa5r/GjDnqqrU\n4oDL/2m6R/6OFC9Klikc5OneP138xp6XIkZ54QBl1OsHr3YIvhXBtn3d9Ml5\nriBPVE9XXQCQDQpeCZtWSmv34VekmzU7Kah5Cp4cyKQZblb5G+8Hi5njJSpP\nFurGNEoIGTHHZY838cmxJXztVrVXtFN38i6K8zozWJjAePmwIWRhST38jAPt\ntj8ynjJay4Iz9balh/s8DqcdAn+/Hmnn7sdfW9sSNQp/RvGnVnIroohSVXyR\nSzxF\r\n=eRUX\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "1a472c98a7738ae3746c4a8e535c5e9cfcfe5926",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "lauriejim",
+      "email": "j.laurie6993@gmail.com"
+    },
+    {
+      "name": "pierreburgy",
+      "email": "pierre.burgy@gmail.com"
+    },
+    {
+      "name": "soupette",
+      "email": "cyril.lpz@gmail.com"
+    },
+    {
+      "name": "aurelsicoko",
+      "email": "aurelsicoko@gmail.com"
+    },
+    {
+      "name": "hichamelbsi",
+      "email": "elabbassih@gmail.com"
+    },
+    {
+      "name": "alexandrebodin",
+      "email": "bodin.alex@gmail.com"
+    },
+    {
+      "name": "petersg83",
+      "email": "petersg83@gmail.com"
+    },
+    {
+      "name": "convly",
+      "email": "jean-sebastien.herbaux@hotmail.fr"
+    }
+  ],
+  "name": "strapi-plugin-email",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description",
+    "required": true
+  },
+  "version": "3.5.2",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.16.0 <=14.x.x",
+        "npm": ">=6.0.0"
+      },
+      "pkgid": "strapi-plugin-email@3.5.2"
+    }
+  ]
+}

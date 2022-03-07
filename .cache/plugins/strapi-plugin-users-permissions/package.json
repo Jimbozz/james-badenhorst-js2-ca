@@ -1,0 +1,166 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "strapi-plugin-users-permissions@3.5.2",
+        "scope": null,
+        "escapedName": "strapi-plugin-users-permissions",
+        "name": "strapi-plugin-users-permissions",
+        "rawSpec": "3.5.2",
+        "spec": "3.5.2",
+        "type": "version"
+      },
+      "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca"
+    ]
+  ],
+  "_from": "strapi-plugin-users-permissions@3.5.2",
+  "_hasShrinkwrap": false,
+  "_id": "strapi-plugin-users-permissions@3.5.2",
+  "_inCache": true,
+  "_location": "/strapi-plugin-users-permissions",
+  "_nodeVersion": "14.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-users-permissions_3.5.2_1614594340913_0.6486684834842655"
+  },
+  "_npmUser": {
+    "name": "alexandrebodin",
+    "email": "bodin.alex@gmail.com"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v14.16.0+x64 (darwin)",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "strapi-plugin-users-permissions@3.5.2",
+    "scope": null,
+    "escapedName": "strapi-plugin-users-permissions",
+    "name": "strapi-plugin-users-permissions",
+    "rawSpec": "3.5.2",
+    "spec": "3.5.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.5.2.tgz",
+  "_shasum": "469df1d3122c3761b6d9d88a3b1a73c12f2c7b99",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-users-permissions@3.5.2",
+  "_where": "/Users/jamesbadenhorst/Documents/Noroff/2022/semester 1/james-badenhorst-js2-ca",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "https://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "@buffetjs/core": "3.3.4",
+    "@buffetjs/custom": "3.3.4",
+    "@buffetjs/hooks": "3.3.4",
+    "@buffetjs/icons": "3.3.4",
+    "@buffetjs/styles": "3.3.4",
+    "@buffetjs/utils": "3.3.4",
+    "@purest/providers": "^1.0.2",
+    "bcryptjs": "^2.4.3",
+    "grant-koa": "5.4.8",
+    "immutable": "^3.8.2",
+    "jsonwebtoken": "^8.1.0",
+    "koa2-ratelimit": "^0.9.0",
+    "lodash": "4.17.20",
+    "purest": "3.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.9.0",
+    "react-intl": "4.5.0",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "reactstrap": "8.4.1",
+    "redux-saga": "^0.16.0",
+    "request": "^2.83.0",
+    "strapi-helper-plugin": "3.5.2",
+    "strapi-utils": "3.5.2",
+    "uuid": "^3.1.0"
+  },
+  "description": "Protect your API with a full-authentication process based on JWT",
+  "devDependencies": {
+    "koa": "^2.13.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-oCDjzazwOELPjdV48bsFDA7CSb320CsxHvjr3Yr+bU4P+FB1kD+WFvryHO5XoJ/410m8jmh4oqPTTUqVf3+iqA==",
+    "shasum": "469df1d3122c3761b6d9d88a3b1a73c12f2c7b99",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.5.2.tgz",
+    "fileCount": 143,
+    "unpackedSize": 363688,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgPMElCRA9TVsSAnZWagAAtuYP/RZ/xHoctf4mvLPCD8f9\npDBfeWOyYn19GDgN4DtfgFd6MqaQfzqzRZAIjVDLPreOB5o7mQcGRrmK5BXe\nyAZ0srkFjfv5R5sR/+lt37O8JpLp6okYWobeNPOIaPVHetBGv4BhaHY0y3qd\n4/rZfHySJvSiMiOdZ22x5fN7x8mXQOeJGTIUJQmubUvMhT3ckFxoVmJc+pNP\n9U2YoVZNOeTP/0q/AXBd2yCNmHxL6DI9M3rA1ULHKl2KAqvpfD+kF7Jc4Use\nb8QfChM1g1PdrKvSoBPrL3aXtHdxT7+Z6M8JQepjiFY7THMb/M8/2UOipOHV\nsDYS13LV8+4aNeUivUsjjoFDU0GdJMEkNxHwsrfehQyDW8ayUjT2Az4DT4Ni\nSNCXu7XkvrLe9Cmqx9N51fM9Mb+HQ9L5JmYzhwqpImlwpjZAUlxKKmjkI78v\nJ5PFAbYjhfoDdnXTTFryX+me87qhL2evtFNZ57GMQp+dPcBwahjO/Dj7dNct\nwDTtDcmpgfa7TFPwOyzl8nm+6bLOPlyvcB03Vl7/23yaZEiZC/b2UYEbnLFz\nMC6CQ6F4qCWaWIRAJMetIJLSWCOPg6QAYD9nviWb/VOy7uTC/cp80Vc1IQ4R\neUHdDaE7Myed192vuwjsEbl2iSBJnbOyRTije5WFoCK9iRhAzV4ewK/Um0SK\nbQxc\r\n=Rbj7\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "1a472c98a7738ae3746c4a8e535c5e9cfcfe5926",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "lauriejim",
+      "email": "j.laurie6993@gmail.com"
+    },
+    {
+      "name": "pierreburgy",
+      "email": "pierre.burgy@gmail.com"
+    },
+    {
+      "name": "soupette",
+      "email": "cyril.lpz@gmail.com"
+    },
+    {
+      "name": "aurelsicoko",
+      "email": "aurelsicoko@gmail.com"
+    },
+    {
+      "name": "hichamelbsi",
+      "email": "elabbassih@gmail.com"
+    },
+    {
+      "name": "alexandrebodin",
+      "email": "bodin.alex@gmail.com"
+    },
+    {
+      "name": "petersg83",
+      "email": "petersg83@gmail.com"
+    },
+    {
+      "name": "convly",
+      "email": "jean-sebastien.herbaux@hotmail.fr"
+    }
+  ],
+  "name": "strapi-plugin-users-permissions",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Roles & Permissions",
+    "icon": "users",
+    "description": "users-permissions.plugin.description",
+    "required": true
+  },
+  "version": "3.5.2",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.16.0 <=14.x.x",
+        "npm": ">=6.0.0"
+      },
+      "pkgid": "strapi-plugin-users-permissions@3.5.2"
+    }
+  ]
+}
