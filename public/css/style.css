@@ -4,11 +4,47 @@
 
 body {
   font-family: sans-serif;
-  background: #d8d3d3;
+  background: #f7efef;
   padding: 1.5rem;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.article-item {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 6px 7px 10px #00000024;
+}
+.message {
+  border: 1px solid grey;
+  color: grey;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.message.error {
+  border-color: red;
+  color: red;
+  background: rgba(255, 0, 0, 0.144);
+}
+
+.search {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
 }
