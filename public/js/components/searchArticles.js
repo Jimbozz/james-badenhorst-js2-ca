@@ -11,7 +11,6 @@ export function searchArticles(articles) {
       const articleTitle = article.title.trim().toLowerCase();
 
       if (articleTitle == safeSearchValue) {
-        // console.log(article.title);
         return true;
       }
       if (searchValue === "") {

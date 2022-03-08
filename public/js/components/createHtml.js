@@ -25,7 +25,7 @@ export function createHtml(renderArticles) {
       <h3>${article.title}</h3>
       <p>${article.summary}</p>
       <h5>Author: ${article.author}</h5>
-      <i class="${cssClass} fa-heart fa-lg" data-id="${article.id}" data-title="${article.title}" data-author="${article.author}"></i>
+      <i class="${cssClass} fa-heart fa-lg" data-id="${article.id}" data-title="${article.title}" data-author="${article.author}" data-summary="${article.summary}"></i>
       </div>`;
 
     const favButton = document.querySelectorAll(".article-item i");
@@ -40,6 +40,7 @@ export function createHtml(renderArticles) {
 
       const id = this.dataset.id;
       const title = this.dataset.title;
+      const summary = this.dataset.summary;
       const author = this.dataset.author;
 
       const currentFavs = getWishes();
@@ -48,7 +49,12 @@ export function createHtml(renderArticles) {
         return fav.id === id;
       });
       if (articleExists === undefined) {
-        const article = { id: id, title: title, author: author };
+        const article = {
+          id: id,
+          title: title,
+          author: author,
+          summary: summary,
+        };
         currentFavs.push(article);
         saveFavs(currentFavs);
       } else {

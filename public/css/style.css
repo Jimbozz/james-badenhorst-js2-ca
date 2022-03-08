@@ -48,3 +48,9 @@ p {
   padding: 0.5rem;
   border: 1px solid lightgray;
 }
+
+.fav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
