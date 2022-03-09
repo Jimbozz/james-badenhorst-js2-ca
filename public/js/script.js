@@ -2,8 +2,11 @@ import { baseUrl } from "./settings/api.js";
 import { createHtml } from "./components/createHtml.js";
 import displayMessage from "./components/displayMessage.js";
 import { searchArticles } from "./components/searchArticles.js";
+import createMenu from "./components/createMenu.js";
 
 const articleUrl = baseUrl + "articles";
+
+createMenu();
 
 // (async function () {
 //   const container = document.querySelector(".article-container");
