@@ -4,16 +4,24 @@
 
 :root {
   --primary-colour: #6161d5;
+  --text-colour: color: rgb(36, 35, 35);
 }
 
 body {
   font-family: sans-serif;
   background: #f7efef;
   padding: 1.5rem;
+  color: var(--text-colour);
 }
 
 p {
   line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-colour);
+  cursor: pointer;
 }
 
 .container {
@@ -83,11 +91,6 @@ button {
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #333;
 }
 
 .menu a.active {

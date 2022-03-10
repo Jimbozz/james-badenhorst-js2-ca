@@ -8,31 +8,7 @@ const articleUrl = baseUrl + "articles";
 
 createMenu();
 
-// (async function () {
-//   const container = document.querySelector(".article-container");
-
-//   try {
-//     const response = await fetch(articleUrl);
-//     const json = await response.json();
-
-//     container.innerHTML = "";
-
-//     json.forEach(function (article) {
-//       container.innerHTML += `<div class="article-item">
-//       <h3>${article.title}</h3>
-//       <p>${article.summary}</p>
-//       <h5>Author: ${article.author}</h5>
-//       <i class="far fa-heart"></i>
-//       </div>`;
-//     });
-
-//     console.log(json);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// })();
-
-async function callApi() {
+(async function callApi() {
   try {
     const response = await fetch(articleUrl);
     const json = await response.json();
@@ -48,6 +24,4 @@ async function callApi() {
       ".article-container"
     );
   }
-}
-
-callApi();
+})();
