@@ -4,7 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Add articles</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="menu-container"></div>
+      <form>
+        <h1>Create an article</h1>
+        <div class="message-container"></div>
+        <div>
+          <label for="title">Title</label>
+          <input id="title"/>
+        </div>
+        <div>
+          <label for="summary">Summary</label>
+          <textarea id="summary" name="summary"
+          rows="5" cols="33"></textarea>
+        </div>
+        <div>
+          <label for="author">Author</label>
+          <input id="author"/>
+        </div>
+        <button>Add article</button>
+      </form>
+      <script src="js/add.js" type="module"></script>
+  </body>
 </html>

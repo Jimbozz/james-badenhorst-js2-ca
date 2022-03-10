@@ -36,6 +36,10 @@ button {
   cursor: pointer;
 }
 
+.article-heading {
+  text-align: center;
+}
+
 .article-item {
   border: 1px solid transparent;
   border-radius: 5px;
@@ -63,16 +67,27 @@ button {
   background: rgb(238, 183, 32);
 }
 
+.message.success {
+  border-color: green;
+  color: white;
+  background: green;
+}
+
 .fav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .menu a {
   text-decoration: none;
   color: #333;
-  padding-right: 1rem;
 }
 
 .menu a.active {
@@ -97,9 +112,14 @@ form > div {
 }
 
 form input,
+textarea,
 .search {
   width: 100%;
   padding: 0.9rem;
   font-size: 14px;
   border: 1px solid lightgray;
+}
+
+#logout:last-of-type {
+  margin-left: auto;
 }

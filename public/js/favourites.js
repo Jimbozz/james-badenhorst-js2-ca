@@ -1,8 +1,12 @@
 import { getWishes } from "./utils/wishFunction.js";
 import displayMessage from "./components/displayMessage.js";
 import { clearStorage } from "./utils/storage.js";
+import createMenu from "./components/createMenu.js";
+import { getToken } from "./utils/storage.js";
 
 const favourites = getWishes();
+
+createMenu();
 
 const container = document.querySelector(".article-container");
 
@@ -24,7 +28,7 @@ const button = document.querySelector(".fav-header button");
 button.addEventListener("click", handleClick);
 
 function handleClick() {
-  clearStorage();
+  localStorage.removeItem("favourites");
   displayMessage(
     "error",
     "You have nothing in your favourites right now.",
