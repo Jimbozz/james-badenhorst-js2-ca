@@ -9,9 +9,15 @@ const favourites = getWishes();
 createMenu();
 
 const container = document.querySelector(".article-container");
+const favContainer = document.querySelector(".fav-header");
+const button = document.querySelector(".fav-header button");
 
 if (favourites.length === 0) {
-  container.innerHTML = `<div class="message error">You have nothing in your favourites right now.<div>`;
+  container.innerHTML = `<div class="message warning">You have nothing in your favourites right now.<div>`;
+}
+
+if (favourites.length > 0) {
+  button.style.display = "inline-block";
 }
 favourites.forEach(function (favourite) {
   container.innerHTML += `
@@ -24,14 +30,18 @@ favourites.forEach(function (favourite) {
     `;
 });
 
-const button = document.querySelector(".fav-header button");
 button.addEventListener("click", handleClick);
 
 function handleClick() {
-  localStorage.removeItem("favourites");
-  displayMessage(
-    "error",
-    "You have nothing in your favourites right now.",
-    ".article-container"
-  );
+  const deleteFavs = confirm("Are you sure you want to remove these items?");
+
+  if (deleteFavs) {
+    button.style.display = "none";
+    localStorage.removeItem("favourites");
+    displayMessage(
+      "warning",
+      "You have nothing in your favourites right now.",
+      ".article-container"
+    );
+  }
 }

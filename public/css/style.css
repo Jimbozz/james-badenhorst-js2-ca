@@ -29,23 +29,44 @@ a {
   margin: 0 auto;
 }
 
+.fav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*menu*/
+
+.menu-container {
+  margin-bottom: 4rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu a.active {
+  color: var(--primary-colour);
+}
+
+/*article cards*/
+
 .article-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-gap: 1.5rem;
 }
 
-button {
-  width: auto;
-  padding: 1rem;
-  background: var(--primary-colour);
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
 .article-heading {
   text-align: center;
+}
+
+.article-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .article-item {
@@ -55,6 +76,9 @@ button {
   background-color: white;
   box-shadow: 6px 7px 10px #00000024;
 }
+
+/*Message*/
+
 .message {
   border: 1px solid grey;
   color: grey;
@@ -81,24 +105,10 @@ button {
   background: green;
 }
 
-.fav-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.menu a.active {
-  color: var(--primary-colour);
-}
+/*Forms, search, textarea*/
 
 .search-form {
-  height: 30vh;
+  height: 20vh;
 }
 
 form {
@@ -120,7 +130,35 @@ textarea,
   width: 100%;
   padding: 0.9rem;
   font-size: 14px;
+  font-family: inherit;
   border: 1px solid lightgray;
+}
+
+/*buttons*/
+
+button {
+  width: auto;
+  padding: 1rem;
+  background: var(--primary-colour);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+.delete-btn {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: red;
+}
+
+.fav-btn {
+  background-color: red;
+  display: none;
 }
 
 #logout:last-of-type {

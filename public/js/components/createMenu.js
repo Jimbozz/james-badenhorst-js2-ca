@@ -13,11 +13,12 @@ export default function createMenu() {
   if (username) {
     authLink = `<a href="/public/add.html" class="${
       pathname === "/public/add.html" ? "active" : ""
-    }">Add product</a>
+    }">Add Article</a>
     <button id="logout">Logout: ${username}</button>`;
   }
 
-  container.innerHTML = `<div class="menu">
+  container.innerHTML = `
+  <div class="menu">
   <a href="/public/index.html" class="${
     pathname === "/" || pathname === "/public/index.html" ? "active" : ""
   }">Home</a><a href="/public/favourites.html" class="${

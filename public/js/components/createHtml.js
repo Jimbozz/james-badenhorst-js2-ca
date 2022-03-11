@@ -21,12 +21,15 @@ export function createHtml(renderArticles) {
       cssClass = "fas";
     }
 
-    container.innerHTML += `<a class="article-item" href="/public/edit.html?id=${article.id}">
+    container.innerHTML += `<div class="article-item">
       <h3>${article.title}</h3>
       <p>${article.summary}</p>
       <h5>Author: ${article.author}</h5>
-      <i class="${cssClass} fa-heart fa-lg" data-id="${article.id}" data-title="${article.title}" data-author="${article.author}" data-summary="${article.summary}"></i>
-      </a>`;
+      <div class="article-icons">
+        <i class="${cssClass} fa-heart fa-lg" data-id="${article.id}" data-title="${article.title}" data-author="${article.author}" data-summary="${article.summary}"></i>
+        <a class="edit-btn" href="/public/edit.html?id=${article.id}">Edit</a>
+      </div>
+      </div>`;
 
     const favButton = document.querySelectorAll(".article-item i");
 

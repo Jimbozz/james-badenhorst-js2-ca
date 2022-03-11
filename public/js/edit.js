@@ -2,6 +2,7 @@ import { baseUrl } from "./settings/api.js";
 import displayMessage from "./components/displayMessage.js";
 import createMenu from "./components/createMenu.js";
 import { getToken } from "./utils/storage.js";
+import deleteArticle from "./components/articles/deleteArticle.js";
 
 createMenu();
 
@@ -35,6 +36,8 @@ const idInput = document.querySelector("#id");
     summary.value = json.summary;
     author.value = json.author;
     idInput.value = json.id;
+
+    deleteArticle(json.id);
   } catch (error) {
     console.log(error);
   }
@@ -103,5 +106,10 @@ async function updateArticle(title, summary, author, id) {
     }
   } catch (error) {
     console.log(error);
+    displayMessage(
+      "error",
+      "There was an error. Please try again later.",
+      ".message-container"
+    );
   }
 }
