@@ -19,15 +19,13 @@ export default function createMenu() {
 
   container.innerHTML = `
   <div class="menu">
-  <a href="/public/index.html" class="${
-    pathname === "/" || pathname === "/public/index.html" ? "active" : ""
-  }">Home</a><a href="/public/favourites.html" class="${
-    pathname === "/public/favourites.html" ||
-    pathname === "//public/favourites.html"
-      ? "active"
-      : ""
-  }">Favourites</a>
-  ${authLink}
+    <a href="/public/index.html" class="${
+      pathname === "/" || pathname === "/public/index.html" ? "active" : ""
+    }">Home</a>
+    <a href="/public/favourites.html" class="${
+      pathname === "/public/favourites.html" ? "active" : ""
+    }">Favourites</a>
+    ${authLink}
   </div>`;
 
   logoutButton();

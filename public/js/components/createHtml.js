@@ -2,7 +2,6 @@ import { getWishes } from "../utils/wishFunction.js";
 
 export function createHtml(renderArticles) {
   const container = document.querySelector(".article-container");
-
   container.innerHTML = "";
 
   if (renderArticles.length === 0) {
@@ -45,12 +44,11 @@ export function createHtml(renderArticles) {
       const title = this.dataset.title;
       const summary = this.dataset.summary;
       const author = this.dataset.author;
-
       const currentFavs = getWishes();
-
       const articleExists = currentFavs.find(function (fav) {
         return fav.id === id;
       });
+
       if (articleExists === undefined) {
         const article = {
           id: id,

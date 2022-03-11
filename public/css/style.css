@@ -156,6 +156,13 @@ button {
   background-color: red;
 }
 
+.delete.btn:disabled,
+.delete-btn[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
 .fav-btn {
   background-color: red;
   display: none;

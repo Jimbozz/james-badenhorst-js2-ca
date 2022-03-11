@@ -1,18 +1,26 @@
 import { getToken } from "../../utils/storage.js";
 import { baseUrl } from "../../settings/api.js";
+import displayMessage from "../displayMessage.js";
 
 export default function deleteArticle(id) {
   const container = document.querySelector(".delete-container");
-
   container.innerHTML = `<button type="button" class="delete-btn">Delete</button>`;
-
   const button = document.querySelector(".delete-btn");
+  const value = getToken();
+
+  if (!value) {
+    displayMessage(
+      "warning",
+      "You must be logged in to delete/edit an article.",
+      ".message-container"
+    );
+    button.disabled = true;
+  }
 
   button.onclick = async function () {
     const deleteCheck = confirm(
       "Are you sure you want to delete this article?"
     );
-    console.log(deleteCheck);
 
     if (deleteCheck) {
       const url = baseUrl + "articles/" + id;
@@ -29,7 +37,6 @@ export default function deleteArticle(id) {
         const json = await response.json();
 
         location.href = "/public/index.html";
-        console.log(json);
       } catch (error) {
         console.log(error);
       }
